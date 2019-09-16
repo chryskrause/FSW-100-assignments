@@ -1,0 +1,31 @@
+.quote1 {
+    display:inline-block;
+    padding:40px;
+    padding-right:30px;
+    background-color:#ABD1FF;
+    margin:5px;
+    font-family: 'Courier New', Courier, monospace;
+    width:400px;
+}
+.quote2 {
+    display:inline-block;
+    padding:40px;
+    background-color:#E8C05A;
+    margin:5px;
+    font-family: 'Courier New', Courier, monospace;
+    width:400px;
+}
+.gallery {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    font-style: bold;
+}
+body {
+    background-color: #D2EBDC;
+}
+.footer {
+    text-decoration:underline;
+    background-color:lightgray;
+    font-size:20px;
+    font-style:bold;
+}
