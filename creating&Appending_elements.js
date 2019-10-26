@@ -17,16 +17,26 @@ paragraph.textContent = "All of this was created with JavaScript"
 document.body.append(paragraph)
 
 
-var list = document.createElement("ol")
-var item1 = document.createElement("li")
-document.ol.append(item1)
-item1.textContent = "This"
-var item2 = document.createElement("li")
-item2.textContent = "Is"
-document.ol.append(item2)
-var item3 = document.createElement("li")
-item3.textContent = "Learning"
-document.ol.append(item3)
+var list = document.createElement("OL");
+list.setAttribute("id", "myOl");
+document.body.appendChild(list);
+
+var itemA = document.createElement("LI")
+var a = document.createTextNode("This")
+itemA.appendChild(a)
+document.getElementById("myOl").appendChild(itemA)
+
+var itemB = document.createElement("LI")
+var b = document.createTextNode("Is")
+itemB.appendChild(b)
+document.getElementById("myOl").append(itemB)
+
+var itemC = document.createElement("LI")
+var c = document.createTextNode("Learning")
+itemC.appendChild(c)
+document.getElementById("myOl").append(itemC)
+
+
 
 
 
